@@ -1,10 +1,12 @@
 import React from "react";
+import Casorel from "../components/Casorel";
 import Header from "../components/Header";
 
 const Home = () => {
   return (
     <div>
       <Header />
+
       <div
         className="introduction flex-with-center"
         // style={{ backgroundImage: `url("./star.PNG")` }}
@@ -21,6 +23,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Casorel />
     </div>
   );
 };
