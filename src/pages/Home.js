@@ -17,9 +17,7 @@ const Home = () => {
               MERN Stack <br />
               Full Stack Developer
             </p>
-            <button className="primary-button font-bold w-50">
-              Get Started
-            </button>
+            <button className="primary-button font-bold ">Get Started</button>
           </div>
         </div>
       </div>

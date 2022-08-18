@@ -20,4 +20,20 @@
   height: 45px;
   border-radius: 25px;
   border: none;
+  width: 50%;
+}
+
+@media (max-width: 750px) {
+  .introduction div h1 {
+    font-size: 75px;
+    color: rgba(240, 233, 233, 0.658);
+  }
+  .primary-button {
+    background: white;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    width: auto;
+    padding: 10px 15px;
+  }
 }
