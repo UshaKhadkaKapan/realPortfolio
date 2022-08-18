@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const [showHeader, setShowHeader] = useState(false);
+  const path = window.location.pathname;
   return (
     <div className="header">
       {showHeader ? (
@@ -24,10 +25,26 @@ const Header = () => {
       )}
 
       <ul className={`${showHeader ? "show-header" : "hide-header"} n-box1`}>
-        <li>Home</li>
-        <li>project</li>
-        <li>Courses</li>
-        <li>Contact</li>
+        <li>
+          <Link className={`${path == "/" && "active"}`} to="/">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link className={`${path == "/project" && "active"}`} to="/project">
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link className={`${path == "/courses" && "active"}`} to="/courses">
+            Courses
+          </Link>
+        </li>
+        <li>
+          <Link className={`${path == "/contact" && "active"}`} to="/contact">
+            Contact
+          </Link>
+        </li>
       </ul>
     </div>
   );
