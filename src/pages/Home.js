@@ -70,8 +70,47 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container">
-        <h3 className="fond-bold text-center">My Development Stack</h3>
+      <div className=" devstack container my-5 n-box2 pt-5 pb-5">
+        <div className="text-center">
+          <h3 className="fond-bold text-center">My Development Stack</h3>
+          <hr />
+          <img src="./girllaptop.PNG" alt="" height="200" width="200" />
+        </div>
+
+        <div className="row mt-4">
+          <div className="col-md-4">
+            <div className="font-bold">
+              <h3 className="font-bold text-start">Frontend</h3>
+              <hr />
+              <p>HTML5/CSS3</p>
+              <p>JavaScript</p>
+              <p>React</p>
+              <p>Redux</p>
+            </div>
+          </div>
+
+          <div className="col-md-4">
+            <div className="font-bold">
+              <h3 className="font-bold text-center">UI/Styling</h3>
+              <hr />
+              <p>Material UI</p>
+              <p>Figma</p>
+              <p>Bootstrap</p>
+              <p>Semantic UI</p>
+            </div>
+          </div>
+
+          <div className="col-md-4">
+            <div className="font-bold">
+              <h3 className="font-bold text-end">Backend/DB</h3>
+              <hr />
+              <p>NodeJS</p>
+              <p>ExpressJS</p>
+              <p>MongoDB</p>
+              <p>MYSQL</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

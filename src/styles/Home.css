@@ -23,6 +23,19 @@
   width: 50%;
 }
 
+.devstack {
+  color: black;
+  transition: all 0.5s;
+  padding: 10px;
+}
+
+.devstack:hover {
+  color: white;
+  background-color: #000;
+  transform: scale(1.02);
+  box-shadow: none;
+}
+
 @media (max-width: 750px) {
   .introduction div h1 {
     font-size: 75px;
