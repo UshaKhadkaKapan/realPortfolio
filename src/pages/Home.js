@@ -71,7 +71,7 @@ const Home = () => {
       </div>
 
       <div className="container">
-        <h3>My Development Stack</h3>
+        <h3 className="fond-bold text-center">My Development Stack</h3>
       </div>
     </div>
   );
