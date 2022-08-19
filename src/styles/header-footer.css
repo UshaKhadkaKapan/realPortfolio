@@ -2,7 +2,7 @@
   color: goldenrod;
   font-size: 70px;
   margin: 20px;
-  z-index: 2;
+  z-index: 3;
   cursor: pointer;
 }
 
@@ -22,6 +22,7 @@
   border-bottom-left-radius: 50%;
   transition: all 0.5s;
   overflow: hidden;
+  z-index: 2;
 }
 
 .hide-header {
@@ -38,6 +39,7 @@
   width: 0;
   transition: all 0.5s;
   overflow: hidden;
+  z-index: 2;
 }
 
 ul li {
