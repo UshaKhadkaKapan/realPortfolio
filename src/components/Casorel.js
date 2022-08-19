@@ -7,6 +7,7 @@ import {
   FaNodeJs,
   FaDocker,
   FaJsSquare,
+  FaGit,
 } from "react-icons/fa";
 
 const Casorel = () => {
@@ -17,26 +18,29 @@ const Casorel = () => {
           Technologies I Use
         </h1>
         <div className="gallery">
-          <span>
+          <span style={{ "--i": 1 }}>
             <FaReact color="red" />
           </span>
-          <span>
+          <span style={{ "--i": 2 }}>
             <FaJsSquare color="yellow" />
           </span>
-          <span>
+          <span style={{ "--i": 3 }}>
             <FaCss3Alt color="green" />
           </span>
-          <span>
-            <FaDocker color="white" />
+          <span style={{ "--i": 4 }}>
+            <FaDocker color="pink" />
           </span>
-          <span>
+          <span style={{ "--i": 5 }}>
             <FaBootstrap color="blue" />
           </span>
-          <span>
+          <span style={{ "--i": 6 }}>
             <FaNodeJs color="purple" />
           </span>
-          <span>
-            <FaHtml5 color="cyan" />
+          <span style={{ "--i": 7 }}>
+            <FaHtml5 color="brown" />
+          </span>
+          <span style={{ "--i": 8 }}>
+            <FaGit color="cyan" />
           </span>
         </div>
       </div>
