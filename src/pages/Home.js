@@ -112,6 +112,25 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <div>
+        <h1 className="font-bold text-center mt-4">Who is Usha?</h1>
+        <div
+          className="who-is-usha flex-with-center"
+          style={{ backgroundImage: `url("/haikei.svg")` }}
+        >
+          <div className="mt-2">
+            <h3>Hello</h3>
+            <hr />
+            <p>Name: Usha Khadka</p>
+            <p>DOB: 24/09/1999</p>
+            <p>Gender:Female</p>
+            <p>Phone: 0404472121</p>
+            <p>Study: BIT</p>
+            <p>From: Nepal</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
