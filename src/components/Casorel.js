@@ -1,5 +1,13 @@
 import React from "react";
-import { FaReact } from "react-icons/fa";
+import {
+  FaReact,
+  FaCss3Alt,
+  FaBootstrap,
+  FaHtml5,
+  FaNodeJs,
+  FaDocker,
+  FaJsSquare,
+} from "react-icons/fa";
 
 const Casorel = () => {
   return (
@@ -10,7 +18,25 @@ const Casorel = () => {
         </h1>
         <div className="gallery">
           <span>
-            <FaReact />
+            <FaReact color="red" />
+          </span>
+          <span>
+            <FaJsSquare color="yellow" />
+          </span>
+          <span>
+            <FaCss3Alt color="green" />
+          </span>
+          <span>
+            <FaDocker color="white" />
+          </span>
+          <span>
+            <FaBootstrap color="blue" />
+          </span>
+          <span>
+            <FaNodeJs color="purple" />
+          </span>
+          <span>
+            <FaHtml5 color="cyan" />
           </span>
         </div>
       </div>
