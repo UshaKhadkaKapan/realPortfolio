@@ -35,11 +35,7 @@ const Header = () => {
             Projects
           </Link>
         </li>
-        <li>
-          <Link className={`${path == "/courses" && "active"}`} to="/courses">
-            Courses
-          </Link>
-        </li>
+
         <li>
           <Link className={`${path == "/contact" && "active"}`} to="/contact">
             Contact
