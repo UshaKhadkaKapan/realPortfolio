@@ -63,9 +63,28 @@ ul a {
   color: goldenrod;
 }
 
+.contact {
+  padding-top: 20px;
+}
+
 .contact img {
   height: 50vh;
   width: 100%;
+}
+
+input,
+textarea {
+  margin-top: 25px;
+  border: none !important;
+}
+
+.form-control {
+  box-shadow: none !important;
+}
+
+.contact button {
+  background-color: blue;
+  color: white;
 }
 
 @media (max-width: 750px) {
@@ -108,5 +127,15 @@ ul a {
   .menu-icon {
     color: goldenrod;
     font-size: 45px;
+  }
+
+  .contact {
+    margin-top: 0 !important;
+    padding: 0 !important;
+  }
+
+  .contact-form {
+    padding: 15px !important;
+    margin: 15px;
   }
 }
