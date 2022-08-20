@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import "./styles/Home.css";
 import "./styles/header-footer.css";
 import "./styles/casorel.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
