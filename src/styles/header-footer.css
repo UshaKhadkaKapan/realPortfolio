@@ -63,6 +63,11 @@ ul a {
   color: goldenrod;
 }
 
+.contact img {
+  height: 50vh;
+  width: 100%;
+}
+
 @media (max-width: 750px) {
   .show-header {
     color: white;
