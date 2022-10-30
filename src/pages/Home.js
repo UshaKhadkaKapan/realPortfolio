@@ -123,7 +123,6 @@ const Home = () => {
             <h3>Hello</h3>
             <hr />
             <p>Name: Usha Khadka</p>
-            <p>DOB: 24/09/1999</p>
             <p>Gender:Female</p>
             <p>Phone: 0404472121</p>
             <p>Study: BIT</p>
