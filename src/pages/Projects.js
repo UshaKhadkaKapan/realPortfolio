@@ -50,7 +50,7 @@ const Projects = () => {
                     <h3>{project.title}</h3>
                     <hr />
                     <p>{project.description}</p>
-                    <button className="primary-button">Demo</button>
+                    {/* <button className="primary-button">Git Hub Link</button> */}
                   </div>
                 </div>
               </div>
